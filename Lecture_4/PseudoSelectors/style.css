@@ -1,0 +1,33 @@
+div{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: aqua;
+}
+
+div:hover{
+    background-color: blueviolet;
+    border-radius: 50%;
+}
+
+input:focus
+{
+    background-color: aqua;
+}
+
+button:hover
+{
+    background-color: black;
+}
+
+a:visited{
+    color: red;
+}
+
+h1:active{
+    color: green;
+}
+
+input:disabled{
+    background-color: orange;
+}

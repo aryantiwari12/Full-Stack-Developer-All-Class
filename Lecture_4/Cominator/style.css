@@ -1,0 +1,32 @@
+
+/* Descendent Combinator */
+ul li a{
+    color: aqua;
+}
+
+section span{
+    color: brown;
+    font-size: 30px;
+}
+div span
+{
+    font-size: 10px;
+}
+
+/* Child Combinator */
+ol>li
+{
+    border: 3px solid blue;
+    color: red;
+}
+
+/* Adjacent Combinator */
+
+h4+p{
+    color: red;
+}
+
+/* General Sibling */
+h3~p{
+    color: palevioletred;
+}
